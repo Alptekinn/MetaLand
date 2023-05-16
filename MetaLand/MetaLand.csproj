@@ -68,7 +68,9 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewFolder1\GameSetting.cs" />
+    <Compile Include="Repository\Database.cs" />
+    <Compile Include="Repository\GameSetting.cs" />
+    <Compile Include="Repository\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Game.resx">

@@ -34,12 +34,14 @@
             this.Oyuncuverisi1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnUserSet
             // 
-            this.btnUserSet.Location = new System.Drawing.Point(631, 12);
+            this.btnUserSet.Location = new System.Drawing.Point(275, 368);
             this.btnUserSet.Name = "btnUserSet";
             this.btnUserSet.Size = new System.Drawing.Size(177, 78);
             this.btnUserSet.TabIndex = 0;
@@ -48,12 +50,13 @@
             // 
             // btnGameSet
             // 
-            this.btnGameSet.Location = new System.Drawing.Point(631, 131);
+            this.btnGameSet.Location = new System.Drawing.Point(481, 96);
             this.btnGameSet.Name = "btnGameSet";
             this.btnGameSet.Size = new System.Drawing.Size(177, 87);
             this.btnGameSet.TabIndex = 1;
             this.btnGameSet.Text = "Game Setting";
             this.btnGameSet.UseVisualStyleBackColor = true;
+            this.btnGameSet.Click += new System.EventHandler(this.btnGameSet_Click);
             // 
             // dataGridView1
             // 
@@ -66,7 +69,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(428, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(440, 330);
             this.dataGridView1.TabIndex = 2;
             // 
             // Oyuncuverisi1
@@ -90,11 +93,27 @@
             this.Column2.Name = "Column2";
             this.Column2.Width = 125;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(154, 381);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.TabIndex = 3;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(154, 409);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.TabIndex = 4;
+            // 
             // Manager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1145, 522);
+            this.ClientSize = new System.Drawing.Size(687, 605);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnGameSet);
             this.Controls.Add(this.btnUserSet);
@@ -102,6 +121,7 @@
             this.Text = "Manager";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -113,5 +133,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Oyuncuverisi1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }

@@ -16,5 +16,10 @@ namespace MetaLand
         {
             InitializeComponent();
         }
+        private void btnGameSet_Click(object sender, EventArgs e)
+        {
+            
+            
+        }
     }
 }
