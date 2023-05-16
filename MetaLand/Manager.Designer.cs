@@ -39,7 +39,7 @@
             // 
             // btnUserSet
             // 
-            this.btnUserSet.Location = new System.Drawing.Point(631, 12);
+            this.btnUserSet.Location = new System.Drawing.Point(498, 125);
             this.btnUserSet.Name = "btnUserSet";
             this.btnUserSet.Size = new System.Drawing.Size(177, 78);
             this.btnUserSet.TabIndex = 0;
@@ -48,12 +48,13 @@
             // 
             // btnGameSet
             // 
-            this.btnGameSet.Location = new System.Drawing.Point(631, 131);
+            this.btnGameSet.Location = new System.Drawing.Point(498, 12);
             this.btnGameSet.Name = "btnGameSet";
             this.btnGameSet.Size = new System.Drawing.Size(177, 87);
             this.btnGameSet.TabIndex = 1;
             this.btnGameSet.Text = "Game Setting";
             this.btnGameSet.UseVisualStyleBackColor = true;
+            this.btnGameSet.Click += new System.EventHandler(this.btnGameSet_Click);
             // 
             // dataGridView1
             // 
@@ -66,7 +67,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(428, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(440, 330);
             this.dataGridView1.TabIndex = 2;
             // 
             // Oyuncuverisi1
@@ -94,7 +95,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1145, 522);
+            this.ClientSize = new System.Drawing.Size(687, 605);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnGameSet);
             this.Controls.Add(this.btnUserSet);

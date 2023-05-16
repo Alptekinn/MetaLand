@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MetaLand.NewFolder1
+namespace MetaLand.Repository
 {
     sealed class GameSetting
     {

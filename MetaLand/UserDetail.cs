@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace MetaLand
 {
-    public partial class Manager : Form
+    public partial class UserDetail : Form
     {
-        public Manager()
+        public UserDetail()
         {
             InitializeComponent();
-        }
-        private void btnGameSet_Click(object sender, EventArgs e)
-        {
-            
-            
         }
     }
 }
