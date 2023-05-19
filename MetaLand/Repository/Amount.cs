@@ -11,6 +11,5 @@ namespace MetaLand.Repository
         public static int AmountFood { get; set; }
         public static int AmountMoney { get; set; }
         public static int AmountItem { get; set; }
-        public static List<int> AmountList { get; } = new List<int>();
     }
 }

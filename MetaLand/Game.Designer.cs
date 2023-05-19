@@ -28,357 +28,670 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblitem = new System.Windows.Forms.Label();
-            this.lblFood = new System.Windows.Forms.Label();
-            this.lblmoney = new System.Windows.Forms.Label();
-            this.kryptonButton1 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btnEmptyArea6 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.kryptonCheckButton28 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.btnEmptyArea5 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.kryptonCheckButton29 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.btnEmptyArea4 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.kryptonCheckButton30 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.btnEmptyArea1 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.btnEmptyArea3 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.btnEmptyArea2 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.kryptonCheckButton12 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.kryptonCheckButton23 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.kryptonCheckButton24 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.kryptonCheckButton5 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.kryptonCheckButton4 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.kryptonCheckButton3 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.kryptonCheckButton2 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.kryptonCheckButton15 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.kryptonCheckButton1 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.kryptonCheckButton8 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.kryptonCheckButton6 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
-            this.lblItemData = new System.Windows.Forms.Label();
-            this.lblFoodData = new System.Windows.Forms.Label();
+            this.components = new System.ComponentModel.Container();
+            this.pnlInfo = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblDescription = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.timerJob = new System.Windows.Forms.Timer(this.components);
+            this.pnlDeal = new System.Windows.Forms.Panel();
+            this.btnDismiss1 = new System.Windows.Forms.Button();
+            this.btnAccept = new System.Windows.Forms.Button();
+            this.lblFree = new System.Windows.Forms.Label();
+            this.lblPrice = new System.Windows.Forms.Label();
+            this.lblWorkHour = new System.Windows.Forms.Label();
+            this.cmbWorkHour = new System.Windows.Forms.ComboBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnDissmiss = new System.Windows.Forms.Button();
+            this.btnBuyProduct = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.cmbUrunAdet = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.Area16 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area17 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area18 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area20 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area19 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area4 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area5 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area10 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area15 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area14 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area9 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area13 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area1 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area8 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area6 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area3 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area11 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area2 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area12 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
+            this.Area7 = new ComponentFactory.Krypton.Toolkit.KryptonCheckButton();
             this.lblMoneyData = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.lblitem = new System.Windows.Forms.Label();
+            this.lblFoodData = new System.Windows.Forms.Label();
+            this.lblFood = new System.Windows.Forms.Label();
+            this.lblItemData = new System.Windows.Forms.Label();
+            this.lblmoney = new System.Windows.Forms.Label();
+            this.pnlInfo.SuspendLayout();
+            this.pnlDeal.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lblitem
+            // pnlInfo
             // 
-            this.lblitem.AutoSize = true;
-            this.lblitem.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblitem.Location = new System.Drawing.Point(796, 25);
-            this.lblitem.Name = "lblitem";
-            this.lblitem.Size = new System.Drawing.Size(51, 16);
-            this.lblitem.TabIndex = 20;
-            this.lblitem.Text = "ITEM :";
+            this.pnlInfo.Controls.Add(this.lblMoneyData);
+            this.pnlInfo.Controls.Add(this.lblitem);
+            this.pnlInfo.Controls.Add(this.lblFoodData);
+            this.pnlInfo.Controls.Add(this.lblFood);
+            this.pnlInfo.Controls.Add(this.lblItemData);
+            this.pnlInfo.Controls.Add(this.lblmoney);
+            this.pnlInfo.Controls.Add(this.label3);
+            this.pnlInfo.Controls.Add(this.label2);
+            this.pnlInfo.Controls.Add(this.lblDescription);
+            this.pnlInfo.Controls.Add(this.label1);
+            this.pnlInfo.Location = new System.Drawing.Point(798, 13);
+            this.pnlInfo.Name = "pnlInfo";
+            this.pnlInfo.Size = new System.Drawing.Size(171, 291);
+            this.pnlInfo.TabIndex = 59;
             // 
-            // lblFood
+            // label3
             // 
-            this.lblFood.AutoSize = true;
-            this.lblFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblFood.Location = new System.Drawing.Point(796, 63);
-            this.lblFood.Name = "lblFood";
-            this.lblFood.Size = new System.Drawing.Size(57, 16);
-            this.lblFood.TabIndex = 21;
-            this.lblFood.Text = "FOOD :";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
+            this.label3.Location = new System.Drawing.Point(96, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 16);
+            this.label3.TabIndex = 69;
             // 
-            // lblmoney
+            // label2
             // 
-            this.lblmoney.AutoSize = true;
-            this.lblmoney.Location = new System.Drawing.Point(796, 97);
-            this.lblmoney.Name = "lblmoney";
-            this.lblmoney.Size = new System.Drawing.Size(69, 16);
-            this.lblmoney.TabIndex = 22;
-            this.lblmoney.Text = "MONEY :";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(3, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(96, 16);
+            this.label2.TabIndex = 68;
+            this.label2.Text = "Geçen Süre :";
             // 
-            // kryptonButton1
+            // lblDescription
             // 
-            this.kryptonButton1.Location = new System.Drawing.Point(790, 527);
-            this.kryptonButton1.Name = "kryptonButton1";
-            this.kryptonButton1.Size = new System.Drawing.Size(128, 81);
-            this.kryptonButton1.TabIndex = 23;
-            this.kryptonButton1.Values.Text = "button1";
-            this.kryptonButton1.Click += new System.EventHandler(this.kryptonButton1_Click);
+            this.lblDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
+            this.lblDescription.Location = new System.Drawing.Point(11, 172);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(112, 106);
+            this.lblDescription.TabIndex = 67;
             // 
-            // panel1
+            // label1
             // 
-            this.panel1.Controls.Add(this.btnEmptyArea6);
-            this.panel1.Controls.Add(this.kryptonCheckButton28);
-            this.panel1.Controls.Add(this.btnEmptyArea5);
-            this.panel1.Controls.Add(this.kryptonCheckButton29);
-            this.panel1.Controls.Add(this.btnEmptyArea4);
-            this.panel1.Controls.Add(this.kryptonCheckButton30);
-            this.panel1.Controls.Add(this.btnEmptyArea1);
-            this.panel1.Controls.Add(this.btnEmptyArea3);
-            this.panel1.Controls.Add(this.btnEmptyArea2);
-            this.panel1.Location = new System.Drawing.Point(14, -4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(568, 375);
-            this.panel1.TabIndex = 53;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(3, 146);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(75, 16);
+            this.label1.TabIndex = 66;
+            this.label1.Text = "Açıklama:";
             // 
-            // btnEmptyArea6
+            // timerJob
             // 
-            this.btnEmptyArea6.Location = new System.Drawing.Point(379, 252);
-            this.btnEmptyArea6.Name = "btnEmptyArea6";
-            this.btnEmptyArea6.Size = new System.Drawing.Size(181, 113);
-            this.btnEmptyArea6.TabIndex = 43;
-            this.btnEmptyArea6.Values.Text = "Empty Area";
+            this.timerJob.Tick += new System.EventHandler(this.timerJob_Tick);
             // 
-            // kryptonCheckButton28
+            // pnlDeal
             // 
-            this.kryptonCheckButton28.Location = new System.Drawing.Point(3, 17);
-            this.kryptonCheckButton28.Name = "kryptonCheckButton28";
-            this.kryptonCheckButton28.Size = new System.Drawing.Size(181, 113);
-            this.kryptonCheckButton28.TabIndex = 35;
-            this.kryptonCheckButton28.Values.Text = "Market";
+            this.pnlDeal.Controls.Add(this.btnDismiss1);
+            this.pnlDeal.Controls.Add(this.btnAccept);
+            this.pnlDeal.Controls.Add(this.lblFree);
+            this.pnlDeal.Controls.Add(this.lblPrice);
+            this.pnlDeal.Controls.Add(this.lblWorkHour);
+            this.pnlDeal.Controls.Add(this.cmbWorkHour);
+            this.pnlDeal.Location = new System.Drawing.Point(19, 627);
+            this.pnlDeal.Name = "pnlDeal";
+            this.pnlDeal.Size = new System.Drawing.Size(317, 167);
+            this.pnlDeal.TabIndex = 60;
             // 
-            // btnEmptyArea5
+            // btnDismiss1
             // 
-            this.btnEmptyArea5.Location = new System.Drawing.Point(191, 252);
-            this.btnEmptyArea5.Name = "btnEmptyArea5";
-            this.btnEmptyArea5.Size = new System.Drawing.Size(181, 113);
-            this.btnEmptyArea5.TabIndex = 42;
-            this.btnEmptyArea5.Values.Text = "Empty Area";
+            this.btnDismiss1.Location = new System.Drawing.Point(177, 122);
+            this.btnDismiss1.Name = "btnDismiss1";
+            this.btnDismiss1.Size = new System.Drawing.Size(121, 31);
+            this.btnDismiss1.TabIndex = 7;
+            this.btnDismiss1.Text = "İptal";
+            this.btnDismiss1.UseVisualStyleBackColor = true;
             // 
-            // kryptonCheckButton29
+            // btnAccept
             // 
-            this.kryptonCheckButton29.Location = new System.Drawing.Point(191, 17);
-            this.kryptonCheckButton29.Name = "kryptonCheckButton29";
-            this.kryptonCheckButton29.Size = new System.Drawing.Size(181, 113);
-            this.kryptonCheckButton29.TabIndex = 36;
-            this.kryptonCheckButton29.Values.Text = "Mağaza";
+            this.btnAccept.Location = new System.Drawing.Point(18, 122);
+            this.btnAccept.Name = "btnAccept";
+            this.btnAccept.Size = new System.Drawing.Size(153, 31);
+            this.btnAccept.TabIndex = 4;
+            this.btnAccept.Text = "Kabul Ediyorum";
+            this.btnAccept.UseVisualStyleBackColor = true;
             // 
-            // btnEmptyArea4
+            // lblFree
             // 
-            this.btnEmptyArea4.Location = new System.Drawing.Point(3, 253);
-            this.btnEmptyArea4.Name = "btnEmptyArea4";
-            this.btnEmptyArea4.Size = new System.Drawing.Size(181, 113);
-            this.btnEmptyArea4.TabIndex = 41;
-            this.btnEmptyArea4.Values.Text = "Empty Area";
+            this.lblFree.AutoSize = true;
+            this.lblFree.Location = new System.Drawing.Point(15, 60);
+            this.lblFree.Name = "lblFree";
+            this.lblFree.Size = new System.Drawing.Size(113, 16);
+            this.lblFree.TabIndex = 3;
+            this.lblFree.Text = "Ekstra Kazanç :";
             // 
-            // kryptonCheckButton30
+            // lblPrice
             // 
-            this.kryptonCheckButton30.Location = new System.Drawing.Point(379, 17);
-            this.kryptonCheckButton30.Name = "kryptonCheckButton30";
-            this.kryptonCheckButton30.Size = new System.Drawing.Size(181, 113);
-            this.kryptonCheckButton30.TabIndex = 37;
-            this.kryptonCheckButton30.Values.Text = "Emlakçı";
+            this.lblPrice.AutoSize = true;
+            this.lblPrice.Location = new System.Drawing.Point(140, 60);
+            this.lblPrice.Name = "lblPrice";
+            this.lblPrice.Size = new System.Drawing.Size(51, 16);
+            this.lblPrice.TabIndex = 2;
+            this.lblPrice.Text = "Tutar :";
             // 
-            // btnEmptyArea1
+            // lblWorkHour
             // 
-            this.btnEmptyArea1.Location = new System.Drawing.Point(3, 135);
-            this.btnEmptyArea1.Name = "btnEmptyArea1";
-            this.btnEmptyArea1.Size = new System.Drawing.Size(181, 113);
-            this.btnEmptyArea1.TabIndex = 38;
-            this.btnEmptyArea1.Values.Text = "Empty Area";
+            this.lblWorkHour.AutoSize = true;
+            this.lblWorkHour.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.lblWorkHour.Location = new System.Drawing.Point(14, 17);
+            this.lblWorkHour.Name = "lblWorkHour";
+            this.lblWorkHour.Size = new System.Drawing.Size(123, 20);
+            this.lblWorkHour.TabIndex = 1;
+            this.lblWorkHour.Text = "Çalışma Saati :";
             // 
-            // btnEmptyArea3
+            // cmbWorkHour
             // 
-            this.btnEmptyArea3.Location = new System.Drawing.Point(379, 135);
-            this.btnEmptyArea3.Name = "btnEmptyArea3";
-            this.btnEmptyArea3.Size = new System.Drawing.Size(181, 113);
-            this.btnEmptyArea3.TabIndex = 40;
-            this.btnEmptyArea3.Values.Text = "Empty Area";
+            this.cmbWorkHour.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.cmbWorkHour.FormattingEnabled = true;
+            this.cmbWorkHour.Location = new System.Drawing.Point(143, 13);
+            this.cmbWorkHour.Name = "cmbWorkHour";
+            this.cmbWorkHour.Size = new System.Drawing.Size(113, 28);
+            this.cmbWorkHour.TabIndex = 0;
             // 
-            // btnEmptyArea2
+            // panel3
             // 
-            this.btnEmptyArea2.Location = new System.Drawing.Point(191, 135);
-            this.btnEmptyArea2.Name = "btnEmptyArea2";
-            this.btnEmptyArea2.Size = new System.Drawing.Size(181, 113);
-            this.btnEmptyArea2.TabIndex = 39;
-            this.btnEmptyArea2.Values.Text = "Empty Area";
+            this.panel3.Controls.Add(this.btnDissmiss);
+            this.panel3.Controls.Add(this.btnBuyProduct);
+            this.panel3.Controls.Add(this.label5);
+            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.cmbUrunAdet);
+            this.panel3.Location = new System.Drawing.Point(342, 627);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(301, 167);
+            this.panel3.TabIndex = 61;
             // 
-            // kryptonCheckButton12
+            // btnDissmiss
             // 
-            this.kryptonCheckButton12.Location = new System.Drawing.Point(3, 375);
-            this.kryptonCheckButton12.Name = "kryptonCheckButton12";
-            this.kryptonCheckButton12.Size = new System.Drawing.Size(181, 113);
-            this.kryptonCheckButton12.TabIndex = 36;
-            this.kryptonCheckButton12.Values.Text = "kryptonCheckButton12";
+            this.btnDissmiss.Location = new System.Drawing.Point(177, 122);
+            this.btnDissmiss.Name = "btnDissmiss";
+            this.btnDissmiss.Size = new System.Drawing.Size(98, 31);
+            this.btnDissmiss.TabIndex = 6;
+            this.btnDissmiss.Text = "İptal";
+            this.btnDissmiss.UseVisualStyleBackColor = true;
             // 
-            // kryptonCheckButton23
+            // btnBuyProduct
             // 
-            this.kryptonCheckButton23.Location = new System.Drawing.Point(191, 492);
-            this.kryptonCheckButton23.Name = "kryptonCheckButton23";
-            this.kryptonCheckButton23.Size = new System.Drawing.Size(181, 113);
-            this.kryptonCheckButton23.TabIndex = 45;
-            this.kryptonCheckButton23.Values.Text = "kryptonCheckButton23";
+            this.btnBuyProduct.Location = new System.Drawing.Point(3, 122);
+            this.btnBuyProduct.Name = "btnBuyProduct";
+            this.btnBuyProduct.Size = new System.Drawing.Size(153, 31);
+            this.btnBuyProduct.TabIndex = 4;
+            this.btnBuyProduct.Text = "Kabul Ediyorum";
+            this.btnBuyProduct.UseVisualStyleBackColor = true;
             // 
-            // kryptonCheckButton24
+            // label5
             // 
-            this.kryptonCheckButton24.Location = new System.Drawing.Point(3, 493);
-            this.kryptonCheckButton24.Name = "kryptonCheckButton24";
-            this.kryptonCheckButton24.Size = new System.Drawing.Size(181, 113);
-            this.kryptonCheckButton24.TabIndex = 44;
-            this.kryptonCheckButton24.Values.Text = "kryptonCheckButton24";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(15, 60);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(51, 16);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Tutar :";
             // 
-            // panel2
+            // label6
             // 
-            this.panel2.Controls.Add(this.kryptonCheckButton5);
-            this.panel2.Controls.Add(this.kryptonCheckButton4);
-            this.panel2.Controls.Add(this.kryptonCheckButton3);
-            this.panel2.Controls.Add(this.kryptonCheckButton2);
-            this.panel2.Controls.Add(this.kryptonCheckButton15);
-            this.panel2.Controls.Add(this.kryptonCheckButton12);
-            this.panel2.Controls.Add(this.kryptonCheckButton24);
-            this.panel2.Controls.Add(this.kryptonCheckButton23);
-            this.panel2.Controls.Add(this.kryptonCheckButton1);
-            this.panel2.Controls.Add(this.kryptonCheckButton8);
-            this.panel2.Controls.Add(this.kryptonCheckButton6);
-            this.panel2.Location = new System.Drawing.Point(16, -7);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(762, 615);
-            this.panel2.TabIndex = 55;
-            this.panel2.Visible = false;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label6.Location = new System.Drawing.Point(14, 17);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(98, 20);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Ürün Adeti :";
             // 
-            // kryptonCheckButton5
+            // cmbUrunAdet
             // 
-            this.kryptonCheckButton5.Location = new System.Drawing.Point(567, 20);
-            this.kryptonCheckButton5.Name = "kryptonCheckButton5";
-            this.kryptonCheckButton5.Size = new System.Drawing.Size(181, 113);
-            this.kryptonCheckButton5.TabIndex = 55;
-            this.kryptonCheckButton5.Values.Text = "kryptonCheckButton9";
+            this.cmbUrunAdet.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.cmbUrunAdet.FormattingEnabled = true;
+            this.cmbUrunAdet.Location = new System.Drawing.Point(143, 13);
+            this.cmbUrunAdet.Name = "cmbUrunAdet";
+            this.cmbUrunAdet.Size = new System.Drawing.Size(121, 28);
+            this.cmbUrunAdet.TabIndex = 0;
             // 
-            // kryptonCheckButton4
+            // button1
             // 
-            this.kryptonCheckButton4.Location = new System.Drawing.Point(567, 138);
-            this.kryptonCheckButton4.Name = "kryptonCheckButton4";
-            this.kryptonCheckButton4.Size = new System.Drawing.Size(181, 113);
-            this.kryptonCheckButton4.TabIndex = 54;
-            this.kryptonCheckButton4.Values.Text = "kryptonCheckButton9";
+            this.button1.Location = new System.Drawing.Point(894, 559);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 62;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // kryptonCheckButton3
+            // panel4
             // 
-            this.kryptonCheckButton3.Location = new System.Drawing.Point(567, 256);
-            this.kryptonCheckButton3.Name = "kryptonCheckButton3";
-            this.kryptonCheckButton3.Size = new System.Drawing.Size(181, 113);
-            this.kryptonCheckButton3.TabIndex = 53;
-            this.kryptonCheckButton3.Values.Text = "kryptonCheckButton9";
+            this.panel4.Controls.Add(this.button2);
+            this.panel4.Controls.Add(this.button3);
+            this.panel4.Controls.Add(this.label4);
+            this.panel4.Controls.Add(this.label7);
+            this.panel4.Controls.Add(this.comboBox1);
+            this.panel4.Location = new System.Drawing.Point(649, 627);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(347, 167);
+            this.panel4.TabIndex = 62;
             // 
-            // kryptonCheckButton2
+            // button2
             // 
-            this.kryptonCheckButton2.Location = new System.Drawing.Point(567, 493);
-            this.kryptonCheckButton2.Name = "kryptonCheckButton2";
-            this.kryptonCheckButton2.Size = new System.Drawing.Size(181, 113);
-            this.kryptonCheckButton2.TabIndex = 52;
-            this.kryptonCheckButton2.Values.Text = "kryptonCheckButton9";
+            this.button2.Location = new System.Drawing.Point(177, 122);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(121, 31);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "İptal";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // kryptonCheckButton15
+            // button3
             // 
-            this.kryptonCheckButton15.Location = new System.Drawing.Point(567, 375);
-            this.kryptonCheckButton15.Name = "kryptonCheckButton15";
-            this.kryptonCheckButton15.Size = new System.Drawing.Size(181, 113);
-            this.kryptonCheckButton15.TabIndex = 51;
-            this.kryptonCheckButton15.Values.Text = "kryptonCheckButton9";
+            this.button3.Location = new System.Drawing.Point(3, 122);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(153, 31);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "Kabul Ediyorum";
+            this.button3.UseVisualStyleBackColor = true;
             // 
-            // kryptonCheckButton1
+            // label4
             // 
-            this.kryptonCheckButton1.Location = new System.Drawing.Point(379, 492);
-            this.kryptonCheckButton1.Name = "kryptonCheckButton1";
-            this.kryptonCheckButton1.Size = new System.Drawing.Size(181, 113);
-            this.kryptonCheckButton1.TabIndex = 46;
-            this.kryptonCheckButton1.Values.Text = "kryptonCheckButton22";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(15, 43);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(51, 16);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Tutar :";
             // 
-            // kryptonCheckButton8
+            // label7
             // 
-            this.kryptonCheckButton8.Location = new System.Drawing.Point(379, 374);
-            this.kryptonCheckButton8.Name = "kryptonCheckButton8";
-            this.kryptonCheckButton8.Size = new System.Drawing.Size(181, 113);
-            this.kryptonCheckButton8.TabIndex = 38;
-            this.kryptonCheckButton8.Values.Text = "kryptonCheckButton10";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.label7.Location = new System.Drawing.Point(14, 13);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(228, 20);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Satın Almak İstediğiniz Arsa :";
             // 
-            // kryptonCheckButton6
+            // comboBox1
             // 
-            this.kryptonCheckButton6.Location = new System.Drawing.Point(191, 374);
-            this.kryptonCheckButton6.Name = "kryptonCheckButton6";
-            this.kryptonCheckButton6.Size = new System.Drawing.Size(181, 113);
-            this.kryptonCheckButton6.TabIndex = 37;
-            this.kryptonCheckButton6.Values.Text = "kryptonCheckButton11";
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F);
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(243, 10);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(101, 28);
+            this.comboBox1.TabIndex = 0;
             // 
-            // lblItemData
+            // Area16
             // 
-            this.lblItemData.AutoSize = true;
-            this.lblItemData.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
-            this.lblItemData.Location = new System.Drawing.Point(879, 24);
-            this.lblItemData.Name = "lblItemData";
-            this.lblItemData.Size = new System.Drawing.Size(28, 16);
-            this.lblItemData.TabIndex = 56;
-            this.lblItemData.Text = "100";
+            this.Area16.Location = new System.Drawing.Point(588, 7);
+            this.Area16.Name = "Area16";
+            this.Area16.Size = new System.Drawing.Size(181, 113);
+            this.Area16.TabIndex = 73;
+            this.Area16.Values.Text = "Empty Area";
+            this.Area16.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area16.Click += new System.EventHandler(this.ButtonClick);
             // 
-            // lblFoodData
+            // Area17
             // 
-            this.lblFoodData.AutoSize = true;
-            this.lblFoodData.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
-            this.lblFoodData.Location = new System.Drawing.Point(879, 65);
-            this.lblFoodData.Name = "lblFoodData";
-            this.lblFoodData.Size = new System.Drawing.Size(28, 16);
-            this.lblFoodData.TabIndex = 57;
-            this.lblFoodData.Text = "100";
+            this.Area17.Location = new System.Drawing.Point(588, 125);
+            this.Area17.Name = "Area17";
+            this.Area17.Size = new System.Drawing.Size(181, 113);
+            this.Area17.TabIndex = 72;
+            this.Area17.Values.Text = "Empty Area";
+            this.Area17.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area17.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area18
+            // 
+            this.Area18.Location = new System.Drawing.Point(588, 243);
+            this.Area18.Name = "Area18";
+            this.Area18.Size = new System.Drawing.Size(181, 113);
+            this.Area18.TabIndex = 71;
+            this.Area18.Values.Text = "Empty Area";
+            this.Area18.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area18.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area20
+            // 
+            this.Area20.Location = new System.Drawing.Point(588, 480);
+            this.Area20.Name = "Area20";
+            this.Area20.Size = new System.Drawing.Size(181, 113);
+            this.Area20.TabIndex = 70;
+            this.Area20.Values.Text = "Empty Area";
+            this.Area20.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area20.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area19
+            // 
+            this.Area19.Location = new System.Drawing.Point(588, 362);
+            this.Area19.Name = "Area19";
+            this.Area19.Size = new System.Drawing.Size(181, 113);
+            this.Area19.TabIndex = 69;
+            this.Area19.Values.Text = "Empty Area";
+            this.Area19.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area19.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area4
+            // 
+            this.Area4.Location = new System.Drawing.Point(24, 362);
+            this.Area4.Name = "Area4";
+            this.Area4.Size = new System.Drawing.Size(181, 113);
+            this.Area4.TabIndex = 63;
+            this.Area4.Values.Text = "Empty Area";
+            this.Area4.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area4.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area5
+            // 
+            this.Area5.Location = new System.Drawing.Point(24, 480);
+            this.Area5.Name = "Area5";
+            this.Area5.Size = new System.Drawing.Size(181, 113);
+            this.Area5.TabIndex = 66;
+            this.Area5.Values.Text = "Empty Area";
+            this.Area5.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area5.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area10
+            // 
+            this.Area10.Location = new System.Drawing.Point(212, 479);
+            this.Area10.Name = "Area10";
+            this.Area10.Size = new System.Drawing.Size(181, 113);
+            this.Area10.TabIndex = 67;
+            this.Area10.Values.Text = "Empty Area";
+            this.Area10.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area10.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area15
+            // 
+            this.Area15.Location = new System.Drawing.Point(400, 479);
+            this.Area15.Name = "Area15";
+            this.Area15.Size = new System.Drawing.Size(181, 113);
+            this.Area15.TabIndex = 68;
+            this.Area15.Values.Text = "Empty Area";
+            this.Area15.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area15.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area14
+            // 
+            this.Area14.Location = new System.Drawing.Point(400, 361);
+            this.Area14.Name = "Area14";
+            this.Area14.Size = new System.Drawing.Size(181, 113);
+            this.Area14.TabIndex = 65;
+            this.Area14.Values.Text = "Empty Area";
+            this.Area14.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area14.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area9
+            // 
+            this.Area9.Location = new System.Drawing.Point(212, 361);
+            this.Area9.Name = "Area9";
+            this.Area9.Size = new System.Drawing.Size(181, 113);
+            this.Area9.TabIndex = 64;
+            this.Area9.Values.Text = "Empty Area";
+            this.Area9.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area9.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area13
+            // 
+            this.Area13.Location = new System.Drawing.Point(400, 242);
+            this.Area13.Name = "Area13";
+            this.Area13.Size = new System.Drawing.Size(181, 113);
+            this.Area13.TabIndex = 82;
+            this.Area13.Values.Text = "Empty Area";
+            this.Area13.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area13.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area1
+            // 
+            this.Area1.Location = new System.Drawing.Point(24, 7);
+            this.Area1.Name = "Area1";
+            this.Area1.Size = new System.Drawing.Size(181, 113);
+            this.Area1.TabIndex = 74;
+            this.Area1.Values.Text = "Market";
+            this.Area1.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area1.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area8
+            // 
+            this.Area8.Location = new System.Drawing.Point(212, 242);
+            this.Area8.Name = "Area8";
+            this.Area8.Size = new System.Drawing.Size(181, 113);
+            this.Area8.TabIndex = 81;
+            this.Area8.Values.Text = "Empty Area";
+            this.Area8.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area8.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area6
+            // 
+            this.Area6.Location = new System.Drawing.Point(212, 7);
+            this.Area6.Name = "Area6";
+            this.Area6.Size = new System.Drawing.Size(181, 113);
+            this.Area6.TabIndex = 75;
+            this.Area6.Values.Text = "Mağaza";
+            this.Area6.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area6.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area3
+            // 
+            this.Area3.Location = new System.Drawing.Point(24, 243);
+            this.Area3.Name = "Area3";
+            this.Area3.Size = new System.Drawing.Size(181, 113);
+            this.Area3.TabIndex = 80;
+            this.Area3.Values.Text = "Empty Area";
+            this.Area3.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area3.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area11
+            // 
+            this.Area11.Location = new System.Drawing.Point(400, 7);
+            this.Area11.Name = "Area11";
+            this.Area11.Size = new System.Drawing.Size(181, 113);
+            this.Area11.TabIndex = 76;
+            this.Area11.Values.Text = "Emlakçı";
+            this.Area11.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area11.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area2
+            // 
+            this.Area2.Location = new System.Drawing.Point(24, 125);
+            this.Area2.Name = "Area2";
+            this.Area2.Size = new System.Drawing.Size(181, 113);
+            this.Area2.TabIndex = 77;
+            this.Area2.Values.Text = "Empty Area";
+            this.Area2.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area2.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area12
+            // 
+            this.Area12.Location = new System.Drawing.Point(400, 125);
+            this.Area12.Name = "Area12";
+            this.Area12.Size = new System.Drawing.Size(181, 113);
+            this.Area12.TabIndex = 79;
+            this.Area12.Values.Text = "Empty Area";
+            this.Area12.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area12.Click += new System.EventHandler(this.ButtonClick);
+            // 
+            // Area7
+            // 
+            this.Area7.Location = new System.Drawing.Point(212, 125);
+            this.Area7.Name = "Area7";
+            this.Area7.Size = new System.Drawing.Size(181, 113);
+            this.Area7.TabIndex = 78;
+            this.Area7.Values.Text = "Empty Area";
+            this.Area7.CheckedChanged += new System.EventHandler(this.Button_CheckedChanged);
+            this.Area7.Click += new System.EventHandler(this.ButtonClick);
             // 
             // lblMoneyData
             // 
             this.lblMoneyData.AutoSize = true;
             this.lblMoneyData.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
-            this.lblMoneyData.Location = new System.Drawing.Point(879, 97);
+            this.lblMoneyData.Location = new System.Drawing.Point(86, 96);
             this.lblMoneyData.Name = "lblMoneyData";
-            this.lblMoneyData.Size = new System.Drawing.Size(28, 16);
-            this.lblMoneyData.TabIndex = 58;
-            this.lblMoneyData.Text = "100";
+            this.lblMoneyData.Size = new System.Drawing.Size(0, 16);
+            this.lblMoneyData.TabIndex = 75;
+            // 
+            // lblitem
+            // 
+            this.lblitem.AutoSize = true;
+            this.lblitem.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblitem.Location = new System.Drawing.Point(3, 25);
+            this.lblitem.Name = "lblitem";
+            this.lblitem.Size = new System.Drawing.Size(51, 16);
+            this.lblitem.TabIndex = 70;
+            this.lblitem.Text = "ITEM :";
+            // 
+            // lblFoodData
+            // 
+            this.lblFoodData.AutoSize = true;
+            this.lblFoodData.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
+            this.lblFoodData.Location = new System.Drawing.Point(86, 60);
+            this.lblFoodData.Name = "lblFoodData";
+            this.lblFoodData.Size = new System.Drawing.Size(0, 16);
+            this.lblFoodData.TabIndex = 74;
+            // 
+            // lblFood
+            // 
+            this.lblFood.AutoSize = true;
+            this.lblFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblFood.Location = new System.Drawing.Point(3, 61);
+            this.lblFood.Name = "lblFood";
+            this.lblFood.Size = new System.Drawing.Size(57, 16);
+            this.lblFood.TabIndex = 71;
+            this.lblFood.Text = "FOOD :";
+            // 
+            // lblItemData
+            // 
+            this.lblItemData.AutoSize = true;
+            this.lblItemData.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
+            this.lblItemData.Location = new System.Drawing.Point(86, 24);
+            this.lblItemData.Name = "lblItemData";
+            this.lblItemData.Size = new System.Drawing.Size(0, 16);
+            this.lblItemData.TabIndex = 73;
+            // 
+            // lblmoney
+            // 
+            this.lblmoney.AutoSize = true;
+            this.lblmoney.Location = new System.Drawing.Point(3, 97);
+            this.lblmoney.Name = "lblmoney";
+            this.lblmoney.Size = new System.Drawing.Size(69, 16);
+            this.lblmoney.TabIndex = 72;
+            this.lblmoney.Text = "MONEY :";
             // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(928, 626);
-            this.Controls.Add(this.lblMoneyData);
-            this.Controls.Add(this.lblFoodData);
-            this.Controls.Add(this.lblItemData);
-            this.Controls.Add(this.kryptonButton1);
-            this.Controls.Add(this.lblmoney);
-            this.Controls.Add(this.lblFood);
-            this.Controls.Add(this.lblitem);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel2);
+            this.ClientSize = new System.Drawing.Size(1005, 815);
+            this.Controls.Add(this.Area13);
+            this.Controls.Add(this.Area1);
+            this.Controls.Add(this.Area8);
+            this.Controls.Add(this.Area6);
+            this.Controls.Add(this.Area3);
+            this.Controls.Add(this.Area11);
+            this.Controls.Add(this.Area2);
+            this.Controls.Add(this.Area12);
+            this.Controls.Add(this.Area7);
+            this.Controls.Add(this.Area16);
+            this.Controls.Add(this.Area17);
+            this.Controls.Add(this.Area18);
+            this.Controls.Add(this.Area20);
+            this.Controls.Add(this.Area19);
+            this.Controls.Add(this.Area4);
+            this.Controls.Add(this.Area5);
+            this.Controls.Add(this.Area10);
+            this.Controls.Add(this.Area15);
+            this.Controls.Add(this.Area14);
+            this.Controls.Add(this.Area9);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.pnlDeal);
+            this.Controls.Add(this.pnlInfo);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Name = "Game";
             this.Text = "Game";
             this.Load += new System.EventHandler(this.Game_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
+            this.pnlInfo.ResumeLayout(false);
+            this.pnlInfo.PerformLayout();
+            this.pnlDeal.ResumeLayout(false);
+            this.pnlDeal.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label lblitem;
-        private System.Windows.Forms.Label lblFood;
-        private System.Windows.Forms.Label lblmoney;
-        private ComponentFactory.Krypton.Toolkit.KryptonButton kryptonButton1;
-        private System.Windows.Forms.Panel panel1;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton btnEmptyArea6;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton kryptonCheckButton28;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton btnEmptyArea5;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton kryptonCheckButton29;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton btnEmptyArea4;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton kryptonCheckButton30;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton btnEmptyArea1;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton btnEmptyArea3;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton btnEmptyArea2;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton kryptonCheckButton12;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton kryptonCheckButton23;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton kryptonCheckButton24;
-        private System.Windows.Forms.Panel panel2;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton kryptonCheckButton5;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton kryptonCheckButton4;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton kryptonCheckButton3;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton kryptonCheckButton2;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton kryptonCheckButton15;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton kryptonCheckButton1;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton kryptonCheckButton8;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton kryptonCheckButton6;
-        private System.Windows.Forms.Label lblItemData;
-        private System.Windows.Forms.Label lblFoodData;
+        private System.Windows.Forms.Panel pnlInfo;
+        private System.Windows.Forms.Label lblDescription;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Timer timerJob;
+        private System.Windows.Forms.Panel pnlDeal;
+        private System.Windows.Forms.Button btnDismiss1;
+        private System.Windows.Forms.Button btnAccept;
+        private System.Windows.Forms.Label lblFree;
+        private System.Windows.Forms.Label lblPrice;
+        private System.Windows.Forms.Label lblWorkHour;
+        private System.Windows.Forms.ComboBox cmbWorkHour;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button btnDissmiss;
+        private System.Windows.Forms.Button btnBuyProduct;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox cmbUrunAdet;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area16;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area17;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area18;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area20;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area19;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area4;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area5;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area10;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area15;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area14;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area9;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area13;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area1;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area8;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area6;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area3;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area11;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area2;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area12;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckButton Area7;
         private System.Windows.Forms.Label lblMoneyData;
+        private System.Windows.Forms.Label lblitem;
+        private System.Windows.Forms.Label lblFoodData;
+        private System.Windows.Forms.Label lblFood;
+        private System.Windows.Forms.Label lblItemData;
+        private System.Windows.Forms.Label lblmoney;
     }
 }

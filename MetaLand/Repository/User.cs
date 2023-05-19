@@ -16,7 +16,7 @@ namespace MetaLand.Repository
         public static int AmountFood { get; set; }
         public static int AmountItem { get; set; }
         public static int AmountMoney { get; set; }
-        public static DateTime StartDate { get; set; }
+        public static DateTime StartDate { get; set; } = DateTime.Now;
 
     }
 }

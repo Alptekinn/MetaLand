@@ -56,6 +56,12 @@
     <Compile Include="Game.Designer.cs">
       <DependentUpon>Game.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameOver.Designer.cs">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </Compile>
     <Compile Include="Manager.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,7 +74,13 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="MetaLandDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MetaLandDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Repository\Amount.cs" />
+    <Compile Include="Repository\Business.cs" />
     <Compile Include="Repository\Database.cs" />
     <Compile Include="Repository\GameSetting.cs" />
     <Compile Include="Repository\User.cs" />
@@ -82,6 +94,9 @@
     </Compile>
     <EmbeddedResource Include="Game.resx">
       <DependentUpon>Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameOver.resx">
+      <DependentUpon>GameOver.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -101,6 +116,17 @@
     <EmbeddedResource Include="UserDetail.resx">
       <DependentUpon>UserDetail.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="MetaLandDataSet.xsc">
+      <DependentUpon>MetaLandDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MetaLandDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MetaLandDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MetaLandDataSet.xss">
+      <DependentUpon>MetaLandDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
