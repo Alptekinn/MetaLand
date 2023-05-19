@@ -47,7 +47,7 @@ namespace MetaLand
                     {
                         Name = "Button" + i + j,
                         Size = new Size(100, 100),
-                        Location = new Point(80 + j * 100, 40 + i * 100),
+                        Location = new Point(80 + j*100, 40 + i * 100),
                         BackColor = Color.LightBlue,
                         Padding = new Padding(5, 5, 5, 5),
                         BackgroundImage = CropImage(fullImagePictureBox.Image, i * 100, 0, 100, 100),
